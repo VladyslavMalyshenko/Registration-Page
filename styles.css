@@ -1,0 +1,87 @@
+html,
+body {
+    background-image: linear-gradient(to right, cornflowerblue, lightblue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.cotainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration_block {
+    background-color: whitesmoke;
+    text-align: right;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    border: solid 5px gainsboro;
+    margin-top: 50%;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input_container input {
+    display: block;
+    align-self: end;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    outline: solid 2px gainsboro;
+    border: none;
+    border-radius: 6px;
+}
+
+.input_container button {
+    display: block;
+    align-self: end;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    outline-style: none;
+    border: none;
+    background: dodgerblue;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.input_container button:hover {
+    background: royalblue;
+    scale: 105%;
+    border: solid 2px darkblue;
+}
+
+.errors {
+    position: absolute;
+    list-style: none;
+}
+
+.errorArg {
+    background-color: rgba(228, 77, 77, 0.3);
+    border: solid 1px darkred;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+}
+
+.Value {
+    text-align: start;
+    background-color: rgba(100, 250, 60, 0.3);
+    border: solid 1px lawngreen;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    word-wrap: break-word
+}
